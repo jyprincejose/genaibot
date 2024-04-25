@@ -27,7 +27,7 @@ llm = ChatGoogleGenerativeAI(model = "gemini-pro")
 conversation = ConversationChain(memory=st.session_state.buffer_memory, llm=llm)
 
 # Create user interface
-st.title("🗣️ Conversational Chatbot")
+st.title("🗣️ Prince Jose Conversational Chatbot")
 st.subheader("㈻ Simple Chat Interface for LLMs")
 
 
